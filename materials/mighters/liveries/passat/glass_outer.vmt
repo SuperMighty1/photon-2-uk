@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "mighters/liveries/passat/glass_outer"
+	"$bumpmap" "models/supermighty/shared/skin_nm"
+
+	"$translucent" 1
+	"$normalmapalphaenvmapmask" 1
+	"$nodecal" "1"
+
+
+	"$phong" 1
+	"$phongtint" "[1 1 1]"
+	"$phongexponent" 500
+	"$phongboost" "2"
+	"$phongfresnelranges" "[1 1 1 1]" 
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.11 .11 .11]"
+	"$envmapfresnel" "1"
+
+
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

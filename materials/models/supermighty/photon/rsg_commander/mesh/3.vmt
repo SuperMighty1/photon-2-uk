@@ -1,0 +1,9 @@
+"unlitGeneric"
+{
+                "$basetexture" "models/supermighty/photon/rsg_commander/mesh/3"
+	"$translucent" "1"
+	"$nocull" "0"
+	"$additive" 1
+	"$alpha" 1
+}
+

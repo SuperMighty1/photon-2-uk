@@ -1,0 +1,8 @@
+"decalmodulate"
+{
+	"$basetexture" "models/supermighty/2012_bipper/red_glass"
+	"$mod2x" "1"
+	"$nocull" "1"
+}
+
+

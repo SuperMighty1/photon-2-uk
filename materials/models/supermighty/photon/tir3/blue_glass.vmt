@@ -1,0 +1,18 @@
+"DecalModulate"
+{
+	"$basetexture" "models/supermighty/photon/tir3/blue_glass"
+	"$model" "1"
+	"$mod2x" "1"
+	//"$writez" "1"
+	"$znearer" "1"
+	"$carpenisenabled" "[0.1 0.1 0.5]"
+	Proxies // proxies are listed inside this block
+	{
+		Equals // a proxy which produces a penis
+		{
+			srcVar1 $carpenisenabled
+			resultVar	$color // The shader parameter to be manipulated
+
+		}
+	}
+}
