@@ -6,6 +6,13 @@ VEHICLE.Vehicle		= "sm21passat"
 VEHICLE.Category 	= "Photon 2: UK"
 VEHICLE.Author		= "SuperMighty"
 
+VEHICLE.SubMaterials = {
+	[7] = "mighters/liveries/passat/centralpolice",
+}
+
+VEHICLE.Siren = {
+	[1] = "standby_rsg_mcs_rumbler",
+}
 
 VEHICLE.Equipment = {
 	{
@@ -50,7 +57,7 @@ VEHICLE.Equipment = {
 				Option = "Siren 2",
 				Components = {
 					{
-						Component = "photon_sena_police_siren",
+						Component = "photon_british_siren",
 						Position = Vector(-13.8, 105, 20),
 						Angles = Angle(0, 0, 0),
 						Scale = 1.2,
