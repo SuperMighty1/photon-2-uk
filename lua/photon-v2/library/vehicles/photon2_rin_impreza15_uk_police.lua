@@ -35,6 +35,12 @@ VEHICLE.Equipment = {
 					{ Id = 11, Material = "rin/uk_liveries/impreza/police_white" }
 				}
 			},
+			{
+				Option = "White Alt",
+				SubMaterials = {
+					{ Id = 11, Material = "rin/uk_liveries/impreza/police_white_alt" }
+				}
+			},
 		}
 	},
 	{
