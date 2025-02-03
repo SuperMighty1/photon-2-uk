@@ -12,6 +12,11 @@ VEHICLE.SubMaterials = {
 	[6] = "sentry/shared/glass",
 }
 
+VEHICLE.Siren = {
+	[1] = "standby_rsg_mcs_rumbler",
+}
+
+
 VEHICLE.Equipment = {
     {
 		Category = "Color",
@@ -50,7 +55,7 @@ VEHICLE.Equipment = {
 				Option = "Whelen Legacy",
 				Components = {
 					{
-						Component = "photon_whe_legacy_44",
+						Component = "photon_british_legacy",
 						Position = Vector( 0, -11.5, 70.5 ),
 						Angles = Angle( 1, 90, 0 ),
 						Scale = 1.0,
@@ -134,4 +139,34 @@ VEHICLE.Equipment = {
 			},
 		}
 	},
+	{
+		Category = "Siren",
+		Options = {
+			{
+				Option = "Siren 2",
+				Components = {
+					{
+						Component = "photon_british_siren",
+						Position = Vector(0, 105, 20),
+						Angles = Angle(0, 0, 0),
+						Scale = 1,
+                        Siren = "standby_rsg_mcs_rumbler"
+					},
+				}
+			}
+		}
+	},
+}
+
+VEHICLE.Schema = {
+    ["Emergency.Warning"] = {
+        { Label = "PRIMARY" },
+        { Mode = "MODE1", Label = "FRONT LIGHTING" },
+		{ Mode = "MODE2", Label = "REAR LIGHTING" },
+		{ Mode = "MODE3", Label = "360 LIGHTING" },
+    },
+	["Emergency.Marker"] = {
+		{ Label = "MARKER" },
+        { Mode = "CRUISE", Label = "REDS" },
+    },
 }
